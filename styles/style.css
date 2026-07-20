@@ -210,7 +210,6 @@ ol {
   flex: 0 0 399px;
   max-width: 399px;
   justify-content: flex-start;
-  overflow-x: hidden;
   position: relative;
 }
 
@@ -219,7 +218,6 @@ ol {
   font-size: 75px;
   font-weight: 700;
   line-height: 0.94;
-  letter-spacing: -2px;
   margin-bottom: 26px;
   text-transform: uppercase;
   position: relative;
@@ -267,6 +265,10 @@ ol {
   display: block;
 }
 
+.content__card-link:active{
+  background-color: #545050;
+}
+
 .content__card-link:hover{
   text-decoration: underline;
 }
@@ -298,6 +300,7 @@ ol {
   font-weight: 700;
   line-height: 1;
   margin: 0;
+  text-transform: uppercase;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -326,7 +329,7 @@ ol {
 .button {
   background: transparent;
   border: 1px solid #fff;
-  font-style: bold;
+  font-weight:bold;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -347,10 +350,6 @@ ol {
 .button:focus-visible{
   outline: 1px solid #fff;
   outline-offset: 2px;
-}
-
-.content__list-container > .content__list-container {
-  display: contents;
 }
 
 .more-button {
