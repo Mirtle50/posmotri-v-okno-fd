@@ -59,7 +59,6 @@ ol {
   width: 100%;
   justify-content: center;
   max-width: 1140px;
-  min-height: 534px;
   gap: 30px;
   align-items: stretch;
   align-self: center;
@@ -298,7 +297,6 @@ ol {
   font-size: 30px;
   font-weight: 700;
   line-height: 1;
-  min-width: 196px;
   margin: 0;
   text-transform: uppercase;
   white-space: nowrap;
